@@ -1,0 +1,21 @@
+{
+    "name": "umd",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@bazel/bazel": "latest",
+        "@bazel/buildifier": "latest",
+        "@bazel/ibazel": "latest",
+        "@bazel/typescript": "^0.36.2",
+        "typescript": "~3.4.0"
+    },
+    "scripts": {
+        "build": "bazel build //...",
+        "test": "bazel test //..."
+    },
+    "dependencies": {
+        "@blueprintjs/core": "^3.18.0",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    }
+}
